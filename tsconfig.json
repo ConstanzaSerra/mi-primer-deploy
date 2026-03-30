@@ -1,12 +1,20 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs",
+    "module": "esnext",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "types": ["node"],
-    "outDir": "./dist"
-  }
+    "rootDir": "./"
+  },
+  "include": [
+    "index.ts", // Incluye index.ts
+    "db.ts" // Incluye db.ts
+  ],
+  "exclude": [
+    "frontend", // Ignora la carpeta frontend
+    "backend" // Ignora la carpeta backend
+  ]
 }

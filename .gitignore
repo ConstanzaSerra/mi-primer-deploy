@@ -3,3 +3,8 @@ node_modules
 dev.ts
 .parcel-cache
 frontend
+backend/key.json
+key.json
+backend
+db.js
+index.js
