@@ -5,9 +5,10 @@ import dotenv from "dotenv";
 dotenv.config();
 
 console.log(
-  "ENV length: ",
+  "ENV length:",
   process.env.FIREBASE_APPLICATION_CREDENTIALS_JSON?.length,
 );
+
 // Configuración de Firebase usando las variables de entorno
 const serviceAccount = JSON.parse(
   process.env.FIREBASE_APPLICATION_CREDENTIALS_JSON!,
