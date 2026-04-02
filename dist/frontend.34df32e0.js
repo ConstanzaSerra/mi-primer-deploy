@@ -714,9 +714,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"gH3Lb":[function(require,module,exports,__globalThis) {
-var _home = require("./pages/home.js");
-var _chat = require("./pages/chat.js");
-var _router = require("./router.js");
+var _home = require("./pages/home");
+var _chat = require("./pages/chat");
+var _router = require("./router");
  // (function () {
  //   state.init();
  //   state.setEmailAndFullName("coty_anana@hotmail.com", "Coty Serra");
@@ -3508,10 +3508,10 @@ var popstate_default = POPSTATE;
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "state", ()=>state);
-var _rtdb = require("./rtdb.js");
+var _rtdb = require("./rtdb");
 var _map = require("lodash/map");
 var _mapDefault = parcelHelpers.interopDefault(_map);
-const API_BASE_URL = "https://mi-primer-deploy-c1783c209210.herokuapp.com";
+const API_BASE_URL = undefined;
 console.log("API_BASE_URL:", API_BASE_URL);
 const state = {
     data: {
