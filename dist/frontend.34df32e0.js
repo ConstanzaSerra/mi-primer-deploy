@@ -3511,7 +3511,7 @@ parcelHelpers.export(exports, "state", ()=>state);
 var _rtdb = require("./rtdb");
 var _map = require("lodash/map");
 var _mapDefault = parcelHelpers.interopDefault(_map);
-const API_BASE_URL = undefined;
+const API_BASE_URL = "http://localhost:3000";
 console.log("API_BASE_URL:", API_BASE_URL);
 const state = {
     data: {
