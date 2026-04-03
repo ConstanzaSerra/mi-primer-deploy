@@ -153,6 +153,10 @@ app.get("/rooms/:roomId", (req: Request, res: Response) => {
     });
 });
 
+app.get("/env", (req, res) => {
+  res.json({"environment": process.env.NODE_ENV})
+})
+
 app.get("/*", (req, res) => {
   res.sendFile(path.resolve(__dirname, "dist", "index.html"));
 });
